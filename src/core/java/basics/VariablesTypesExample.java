@@ -6,6 +6,7 @@ public class VariablesTypesExample {
 	//instance variable
 	int b=6;
 	public static void main(String[] args) {
+		//local variable
 		int c=7;
 		VariablesTypesExample ve= new VariablesTypesExample();
 		
