@@ -1,4 +1,4 @@
-package core.java.basics.firstprogram;
+package core.java.basics;
 
 public class HelloWorld {
 
