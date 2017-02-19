@@ -17,6 +17,9 @@ public class DecisionMakingExample {
 		System.out.println("conditional operator check::"+(a==5?"true":"false"));
 
 		//switch case
+		/*
+		 * try commenting all break statements and see what happens
+		 */
 		switch(b){
 		case 5:{
 			System.out.println("inside case 5");
