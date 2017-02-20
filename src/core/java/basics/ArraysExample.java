@@ -16,6 +16,16 @@ public class ArraysExample {
 		for(int i: array){
 			System.out.println(i);
 		}
+		
+		/*
+		 * index starts with 0
+		 * uncomment and execute this again you will get an Exception
+		 */
+		try{
+		System.out.println(array[5]);
+		}catch(ArrayIndexOutOfBoundsException e){
+			System.out.println("cannot access array element. Please check the size::"+ array.length);
+		}
 
 	}
 
